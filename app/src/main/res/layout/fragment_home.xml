@@ -28,8 +28,10 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
-                        android:src="@drawable/banner_platzi_conf"
-                        android:layout_marginTop="1dp"/>
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:src="@drawable/banner_platzi_conf" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -58,6 +60,9 @@
                         android:layout_marginRight="@dimen/marginHomeSubtitulo"
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -77,10 +82,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/platzi_conf_2"
                         android:layout_marginTop="1dp"
                         android:layout_marginLeft="1dp"
-                        android:layout_marginRight="1dp"/>
+                        android:layout_marginRight="1dp"
+                        android:src="@drawable/platzi_conf_2" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -109,6 +114,9 @@
                         android:layout_marginRight="@dimen/marginHomeSubtitulo"
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -127,11 +135,11 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/platzi_conf_3"
                         android:layout_marginTop="1dp"
                         android:layout_marginLeft="1dp"
-                        android:layout_marginRight="1dp"/>
+                        android:layout_marginRight="1dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/platzi_conf_3" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -160,6 +168,9 @@
                         android:layout_marginRight="@dimen/marginHomeSubtitulo"
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

@@ -7,13 +7,13 @@
     <item
         android:id="@+id/navScheduleFragment"
         android:title="Cronograma"
-        android:icon="@drawable/ic_schedule"/>
+        android:icon="@drawable/ic_schedule" />
     <item
         android:id="@+id/navSpeakersFragment"
-        android:title="Expositories"
-        android:icon="@drawable/ic_speakers"/>
+        android:title="Expositores"
+        android:icon="@drawable/ic_speakers" />
     <item
-        android:id="@+id/navMapFragments"
+        android:id="@+id/navMapFragment"
         android:title="Mapa"
-        android:icon="@drawable/ic_map"/>
+        android:icon="@drawable/ic_map" />
 </menu>

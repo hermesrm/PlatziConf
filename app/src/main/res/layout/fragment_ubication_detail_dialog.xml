@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -10,12 +9,12 @@
         <Toolbar
             android:id="@+id/toolbarUbication"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:targetApi="lollipop" />
+            android:layout_height="wrap_content"/>
     </com.google.android.material.appbar.AppBarLayout>
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -25,10 +24,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="230dp"
-                    android:src="@drawable/platzi_conf_2"
-                    android:scaleType="centerCrop"/>
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:src="@drawable/platzi_conf_2"
+                        android:scaleType="centerCrop"/>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -41,7 +40,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
                         <TextView
-                            android:id="@+id/tvDetailConferenceHour"
+                            android:id="@+id/tvDetailNombreLugar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Lugar PlatziConf"
@@ -61,6 +60,7 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_pin"/>
                             <TextView
+                                android:id="@+id/tvUbicationDireccion"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Direccion"
@@ -74,6 +74,7 @@
                             android:layout_height="1dp"
                             android:background="@color/colorPrimary"/>
                         <LinearLayout
+                            android:id="@+id/llPhoneLugar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
@@ -83,6 +84,7 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_phone"/>
                             <TextView
+                                android:id="@+id/tvUbicationTelefono"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="telefono lugar"
@@ -97,6 +99,7 @@
                             android:background="@color/colorPrimary"/>
 
                         <LinearLayout
+                            android:id="@+id/llWebside"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
@@ -106,6 +109,7 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_link"/>
                             <TextView
+                                android:id="@+id/tvWebside"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Sitio Web"

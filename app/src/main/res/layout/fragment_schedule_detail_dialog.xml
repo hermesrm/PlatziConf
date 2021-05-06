@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -10,8 +9,7 @@
         <Toolbar
             android:id="@+id/toolbarConference"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:targetApi="lollipop" />
+            android:layout_height="wrap_content"/>
     </com.google.android.material.appbar.AppBarLayout>
     <FrameLayout
         android:layout_width="match_parent"
@@ -37,7 +35,7 @@
                         android:background="@color/colorPrimary"
                         android:alpha="0.5"/>
                     <TextView
-                        android:id="@+id/tvItemScheduleHour"
+                        android:id="@+id/tvItemScheduleTituloConferencia"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Titulo de la conferencia"
