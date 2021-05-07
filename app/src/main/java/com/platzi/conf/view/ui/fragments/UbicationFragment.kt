@@ -22,9 +22,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.platzi.conf.R
 import com.platzi.conf.model.Ubication
 
-/**
- * A simple [Fragment] subclass.
- */
+
 class UbicationFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {

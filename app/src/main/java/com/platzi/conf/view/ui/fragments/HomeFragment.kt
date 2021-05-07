@@ -9,9 +9,7 @@ import android.view.ViewGroup
 
 import com.platzi.conf.R
 
-/**
- * A simple [Fragment] subclass.
- */
+
 class HomeFragment : Fragment() {
 
     override fun onCreateView(
@@ -21,6 +19,5 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
-
 
 }

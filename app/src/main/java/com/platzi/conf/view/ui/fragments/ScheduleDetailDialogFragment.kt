@@ -15,9 +15,7 @@ import com.platzi.conf.model.Conference
 import kotlinx.android.synthetic.main.fragment_schedule_detail_dialog.*
 import java.text.SimpleDateFormat
 
-/**
- * A simple [Fragment] subclass.
- */
+
 class ScheduleDetailDialogFragment : DialogFragment(){
 
     override fun onCreate(savedInstanceState: Bundle?) {

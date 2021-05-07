@@ -18,9 +18,7 @@ import com.platzi.conf.R
 import com.platzi.conf.model.Speaker
 import kotlinx.android.synthetic.main.fragment_speakers_detail_dialog.*
 
-/**
- * A simple [Fragment] subclass.
- */
+
 class SpeakersDetailFragmentDialog : DialogFragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

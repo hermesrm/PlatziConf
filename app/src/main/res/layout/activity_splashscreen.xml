@@ -9,12 +9,12 @@
 
     <ImageView
         android:id="@+id/ivLogoPlatziConf"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="@dimen/altoLogoPlatzi"
         android:src="@drawable/logo_platzi_conf"
-        app:layout_constraintTop_toBottomOf="parent"
-        app:layout_constraintBottom_toTopOf="parent"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="parent"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
